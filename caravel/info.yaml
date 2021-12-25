@@ -1,0 +1,19 @@
+---
+project:
+  description: "Two Stage CMOS Operational Amplifier"
+  foundry: "SkyWater"
+  git_url: "https://github.com/rohinthram/avsd_opamp_tapeout_mpw4"
+  organization: ""
+  organization_url: ""
+  owner: "R.V.Rohinth Ram"
+  process: "SKY130"
+  project_name: "Two Stage CMOS Operational Amplifier"
+  project_id: "00000000"
+  tags:
+    - "Open MPW"
+    - "Test Harness"
+  category: "Test Harness"
+  top_level_netlist: "caravel/spi/lvs/caravan.spice"
+  user_level_netlist: "netgen/user_analog_project_wrapper.spice"
+  version: "1.00"
+  cover_image: "docs/source/_static/caravel_harness.png"

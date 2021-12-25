@@ -1,0 +1,20 @@
+* SPICE3 file created from layout_opamp_3.ext - technology: sky130A
+
+X0 a_n55212_104034# vdd vss sky130_fd_pr__res_generic_nd w=270000u l=2.492e+07u
+X1 a_n55064_104023# a_n55136_106543# vss sky130_fd_pr__res_generic_nd w=270000u l=2.492e+07u
+X2 a_n54944_104012# a_n55064_104023# vss sky130_fd_pr__res_generic_nd w=340000u l=2.494e+07u
+X3 out a_n53989_105291# vdd vdd sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=6.289e+07u l=1e+06u
+X4 a_n55212_104034# a_n55136_106543# vss sky130_fd_pr__res_generic_nd w=270000u l=2.492e+07u
+X5 a_n53989_105291# in2 a_n54422_102753# vss sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.79e+06u l=1e+06u
+X6 vss a_n54944_104012# a_n54422_102753# vss sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=2.002e+07u l=1e+06u
+X7 vdd a_n54623_105291# a_n54623_105291# vdd sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.001e+07u l=1e+06u
+X8 vss a_n54944_104012# out vss sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=6.289e+07u l=1e+06u
+X9 a_n54422_102753# in1 a_n54623_105291# vss sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.79e+06u l=1e+06u
+X10 a_n53989_105291# a_n54623_105291# vdd vdd sky130_fd_pr__pfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.001e+07u l=1e+06u
+X11 vss a_n54944_104012# a_n54944_104012# vss sky130_fd_pr__nfet_01v8 ad=0p pd=0u as=0p ps=0u w=1.001e+07u l=1e+06u
+C0 in2 vss 214.82fF
+C1 in1 vss 166.10fF
+C2 a_n54944_104012# vss 3.86fF
+C3 out vss 166.10fF
+C4 a_n55064_104023# vss 3.37fF
+C5 vdd vss 152.94fF
