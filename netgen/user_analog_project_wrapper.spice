@@ -336,6 +336,17 @@ Xlayout_opamp io_analog[2] io_analog[0] io_analog[3] io_analog[4] io_analog[1] l
 
 Xlayout_opamp_2 io_analog[7] io_analog[5] io_analog[8] io_analog[9] io_analog[6] layout_opamp_2
 
-Xlayout_opamp_3 vccd1 vssa2 gipo_analog[7] gipo_analog[8] io_analog[10] layout_opamp_3
+Xlayout_opamp_3 vccd2 vssa2 gipo_analog[7] gipo_analog[8] io_analog[10] layout_opamp_3
+
+R0 vssa1 io_clamp_low[2] sky130_fd_pr__res_generic_m3 w=1.1e+07u l=250000u
+R1 io_oeb[15] vssd1 sky130_fd_pr__res_generic_m3 w=560000u l=600000u
+R2 io_analog[4] io_clamp_high[0] sky130_fd_pr__res_generic_m3 w=1.1e+07u l=250000u
+R3 vssd1 io_oeb[11] sky130_fd_pr__res_generic_m3 w=560000u l=580000u
+R4 vssa1 io_clamp_low[1] sky130_fd_pr__res_generic_m3 w=1.1e+07u l=250000u
+R5 io_oeb[16] vssd1 sky130_fd_pr__res_generic_m3 w=560000u l=310000u
+R6 vssa1 io_clamp_low[0] sky130_fd_pr__res_generic_m3 w=1.1e+07u l=250000u
+R7 vssd1 io_oeb[12] sky130_fd_pr__res_generic_m3 w=560000u l=490000u
+R8 vssa1 io_clamp_high[2] sky130_fd_pr__res_generic_m3 w=1.1e+07u l=250000u
+R9 vssa1 io_clamp_high[1] sky130_fd_pr__res_generic_m3 w=1.1e+07u l=250000u
 .ends
 
