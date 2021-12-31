@@ -336,6 +336,6 @@ Xlayout_opamp io_analog[2] io_analog[0] io_analog[3] io_analog[4] io_analog[1] l
 
 Xlayout_opamp_2 io_analog[7] io_analog[5] io_analog[8] io_analog[9] io_analog[6] layout_opamp_2
 
-Xlayout_opamp_3 vccd2 vssa2 gipo_analog[7] gipo_analog[8] io_analog[10] layout_opamp_3
+Xlayout_opamp_3 vccd1 vssa2 gipo_analog[7] gipo_analog[8] io_analog[10] layout_opamp_3
 .ends
 
